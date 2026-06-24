@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Lucy - AI Voice Assistant
 
 Lucy is a Python-based AI voice assistant that performs tasks using voice commands.
