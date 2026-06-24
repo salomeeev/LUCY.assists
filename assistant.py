@@ -122,6 +122,6 @@ def run_lucy():
         talk("I heard you, but I don’t understand that yet 😅")
 
 
-talk("Yo! I'm LUCY – your personal voice assistant ")
+talk("Hello. I am Lucy, your personal AI voice assistant. How can I help you today?")
 while True:
     run_lucy()
