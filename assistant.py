@@ -61,6 +61,10 @@ def run_lucy():
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk(f"It’s {time} ⏰")
 
+    elif "date" in command or "today's date" in command:
+        today = datetime.datetime.now().strftime("%d %B %Y")
+        talk(f"Today's date is {today}")
+
     elif "who are you" in command:
         talk("I am Lucy, your AI voice assistant.")
 
